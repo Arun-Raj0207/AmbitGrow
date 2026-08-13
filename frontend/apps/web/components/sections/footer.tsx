@@ -2,15 +2,15 @@ import { RuixenGradientFooter } from "@/components/ui/ruixen-gradient-footer"
 
 const columns = [
   {
-    title: "Product",
-    links: ["Overview", "Features", "Integrations", "Pricing", "Changelog"],
+    title: "Services",
+    links: ["Web Development", "UI/UX Design", "Branding", "SEO & Growth"],
   },
   {
     title: "Resources",
-    links: ["Docs", "Guides", "API reference", "Support", "Status"],
+    links: ["Blog", "Case Studies", "FAQs", "Support"],
   },
-  { title: "Company", links: ["About", "Careers", "Blog", "Press", "Contact"] },
-  { title: "Legal", links: ["Privacy", "Terms", "Security", "Cookies"] },
+  { title: "Company", links: ["About", "Work", "Careers", "Contact"] },
+  { title: "Legal", links: ["Privacy", "Terms", "Cookies"] },
 ]
 
 export function Footer() {
@@ -24,10 +24,10 @@ export function Footer() {
                 <path d="M12 2 22 12 12 22 2 12Z" fill="currentColor" />
                 <path d="M12 8 16 12 12 16 8 12Z" className="fill-background" />
               </svg>
-              <span className="font-mono text-sm uppercase tracking-widest">Lumen Studio</span>
+              <span className="font-mono text-sm uppercase tracking-widest">AmbitGrow</span>
             </div>
             <p className="mt-4 max-w-xs text-sm text-muted-foreground">
-              Design tooling for teams who ship on Fridays. Built for the browser, offline by default.
+              We design and build websites that drive results and help your business grow.
             </p>
 
             <div className="mt-6 flex max-w-xs gap-2">
@@ -65,12 +65,11 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col items-center justify-between gap-3 border-t border-border/60 pt-6 pb-2 font-mono text-xs uppercase tracking-wider text-muted-foreground sm:flex-row">
-          <span>© 2026 Lumen Studio</span>
+          <span>© 2026 AmbitGrow</span>
           <span className="flex items-center gap-2">
             <span className="h-3 w-3 rounded-full bg-primary" />
             All systems normal
           </span>
-          <span>Amsterdam · Remote</span>
         </div>
       </div>
     </RuixenGradientFooter>

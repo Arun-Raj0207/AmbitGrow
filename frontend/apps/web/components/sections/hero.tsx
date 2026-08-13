@@ -1,4 +1,5 @@
 import { Button } from "@workspace/ui/components/button"
+import Image from "next/image"
 
 export function Hero() {
   return (
@@ -39,9 +40,13 @@ export function Hero() {
       {/* Nav */}
       <nav className="relative z-10 flex items-center justify-between px-8 py-6 md:px-16">
         <div className="flex items-center gap-2">
-          <div className="flex h-9 w-9 items-center justify-center rounded-md bg-white text-black font-bold">
-            AG
-          </div>
+          <Image
+            src="/logo.jpeg"
+            alt="AmbitGrow logo"
+            width={36}
+            height={36}
+            className="rounded-md"
+          />
           <span className="text-sm font-semibold tracking-wide">AmbitGrow</span>
         </div>
         <div className="hidden gap-8 text-sm text-neutral-300 md:flex">
@@ -51,7 +56,7 @@ export function Hero() {
           <a href="#blog" className="transition-colors hover:text-white">Blog</a>
         </div>
         <Button className="bg-amber-400 text-black hover:bg-amber-300">
-          Chat with us
+          Enquire Now
         </Button>
       </nav>
 
