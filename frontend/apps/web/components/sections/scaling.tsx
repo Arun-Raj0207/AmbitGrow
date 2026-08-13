@@ -31,7 +31,7 @@ export function Scaling() {
               Get to know our dream team
             </p>
             <Button className="bg-amber-400 text-black hover:bg-amber-300">
-              Chat with Alex
+              Chat with us
             </Button>
           </div>
         </div>

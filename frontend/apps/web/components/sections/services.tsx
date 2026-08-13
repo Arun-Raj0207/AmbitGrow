@@ -2,7 +2,8 @@ import { Button } from "@workspace/ui/components/button"
 
 export function Services() {
   return (
-    <div className="bg-neutral-50 px-8 py-20 md:px-16">
+    <div className="rounded-t-3xl border-t border-transparent bg-neutral-50 px-8 pt-24 md:px-16">
+      <div className="mb-2 h-[1px] w-full bg-gradient-to-r from-transparent via-amber-500/40 to-transparent" />
       <h2 className="mb-10 text-4xl font-bold text-neutral-900 md:text-5xl">
         Replace your Engineering Team
       </h2>

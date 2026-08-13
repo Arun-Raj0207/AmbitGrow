@@ -2,7 +2,7 @@ import { Button } from "@workspace/ui/components/button"
 
 export function Hero() {
   return (
-    <div className="relative overflow-hidden bg-black text-white">
+    <div className="relative min-h-screen overflow-hidden bg-black text-white">
       {/* Faint grid lines */}
       <div
         className="pointer-events-none absolute inset-0 opacity-[0.15]"
@@ -51,7 +51,7 @@ export function Hero() {
           <a href="#blog" className="transition-colors hover:text-white">Blog</a>
         </div>
         <Button className="bg-amber-400 text-black hover:bg-amber-300">
-          Chat with Alex
+          Chat with us
         </Button>
       </nav>
 
@@ -60,7 +60,7 @@ export function Hero() {
       <div className="pointer-events-none absolute left-1/2 top-1/3 h-[500px] w-[900px] -translate-x-1/2 rounded-full bg-amber-500/10 blur-3xl" />
 
       {/* Hero content */}
-      <div className="relative z-10 flex min-h-[85vh] flex-col justify-center px-8 pb-32 pt-8 md:px-16">
+      <div className="relative z-10 flex flex-col justify-start px-8 pb-4 pt-10 md:px-16">
         <span className="mb-8 inline-flex w-fit items-center gap-2 rounded-full border border-neutral-700 bg-neutral-900/60 px-4 py-1.5 text-xs text-neutral-300">
           AmbitGrow <span className="text-neutral-500">|</span> Design &amp; Development
         </span>
@@ -76,7 +76,7 @@ export function Hero() {
               business grow. No Calls. No BS. Just Results.
             </p>
             <Button className="bg-amber-400 text-black hover:bg-amber-300">
-              Chat with Alex
+              Chat with us
             </Button>
           </div>
         </div>
